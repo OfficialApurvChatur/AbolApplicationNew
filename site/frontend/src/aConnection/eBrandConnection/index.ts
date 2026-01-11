@@ -1,16 +1,16 @@
 const brandConnection = {
-  aBrandID: "boilerplate",
-  bBrandName: "Boilerplate",
+  aBrandID: "abol",
+  bBrandName: "Abol",
 
-  cFrontendApplicationName: "Boilerplate Frontend",
-  dAdministrationApplicationName: "Boilerplate Administration",
-  eBackendApplicationName: "Boilerplate Backend",
+  cFrontendApplicationName: "Abol Frontend",
+  dAdministrationApplicationName: "Abol Administration",
+  eBackendApplicationName: "Abol Backend",
 
-  fFrontendApplicationURL: "https://boilerplate-frontend-v02.netlify.app",
-  gAdminApplicationURL: "https://boilerplate-admin-v02.netlify.app",
-  hBackendApplicationURL: "https://boilerplate-backend-v02.netlify.app",
+  fFrontendApplicationURL: "https://abol-frontend-v02.netlify.app",
+  gAdminApplicationURL: "https://abol-admin-v02.netlify.app",
+  hBackendApplicationURL: "https://abol-backend-v02.netlify.app",
 
-  iEmailName: "@boilerplate.com",
+  iEmailName: "@abol.com",
 
   jInstagramURL: "https://www.google.com/",
   kXURL: "https://www.google.com/",
@@ -24,7 +24,7 @@ const brandConnection = {
       : this.pBackendLocalURL;
   },
   pBackendLocalURL: "http://localhost:8000",
-  qBackendProductionURL: "https://boilerplate-backend-v02.onrender.com",
+  qBackendProductionURL: "https://abol-backend-v02.onrender.com",
 
   get rFrontendBaseURL() {
     return import.meta.env.VITE_ENVIRONMENT === "Production" ? [ 
@@ -51,10 +51,10 @@ const brandConnection = {
   sFrontendLocalURL7: "http://localhost:5179",
   sFrontendLocalURL8: "http://localhost:5180",
   sFrontendLocalURL9: "http://localhost:5181",
-  tFrontendProductionURL1: "https://boilerplate-admin-v02.netlify.app",
-  tFrontendProductionURL2: "https://boilerplate-frontend-v02.netlify.app",
+  tFrontendProductionURL1: "https://abol-admin-v02.netlify.app",
+  tFrontendProductionURL2: "https://abol-frontend-v02.netlify.app",
 
-  uTagName: "Skip setup. Start building.",
+  uTagName: "Unlocking Secure Web Access Safely",
 }
 
 export default brandConnection;
