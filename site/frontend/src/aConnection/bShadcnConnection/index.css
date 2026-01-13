@@ -1127,7 +1127,7 @@ html, body, #root {
 } */
 
 /* Abol */
-/* @layer base {
+@layer base {
   :root {
     --background: 43 67% 58%; 
     --foreground: 218 59% 29%; 
@@ -1219,10 +1219,10 @@ html, body, #root {
     --sidebar-border: 218 35% 36%;
     --sidebar-ring: 43 67% 58%;
   }
-} */
+}
 
 /* Boilerplate */
-@layer base {
+/* @layer base {
   :root {
     --background: 312 43% 82%; 
     --foreground: 180 100% 3%; 
@@ -1314,7 +1314,7 @@ html, body, #root {
     --sidebar-border: 180 30% 14%;
     --sidebar-ring: 312 43% 82%;
   }
-}
+} */
 
 /* Chattrix */
 /* @layer base {
