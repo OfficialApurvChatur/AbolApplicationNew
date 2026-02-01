@@ -55,6 +55,11 @@ const brandConnection = {
   tFrontendProductionURL2: "https://abol-frontend-v02.netlify.app",
 
   uTagName: "Unlocking Secure Web Access Safely",
+
+  vMainApplication: "Abol Application",
+  vFrontendApplication: "Abol Application (Frontend)",
+  vAdminApplication: "Abol Application (Admin)",
+  vBackendApplication: "Abol Application (Backend)",
 }
 
 export default brandConnection;
